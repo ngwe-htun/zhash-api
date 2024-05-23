@@ -1,7 +1,7 @@
 // Import modules
 const http = require('http');
-const routes = require('../routes/index.js');
-const responseHelper = require('../helpers/response.js');
+const routes = require('./routes/index.js');
+const responseHelper = require('./helpers/response.js');
 
 // Create server
 const server = http.createServer(
