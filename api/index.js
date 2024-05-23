@@ -19,8 +19,8 @@ const server = http.createServer(
 );
 
 // Run the server
-const PORT=4000;
-const HOST="0.0.0.0";
-server.listen(PORT, HOST, () => {
+const PORT=3000;
+// const HOST="0.0.0.0";
+server.listen(PORT, () => {
     console.info('Server is running');
 });
