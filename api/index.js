@@ -1,7 +1,7 @@
 // Import modules
 const http = require('http');
-const routes = require('./routes/index.js');
-const responseHelper = require('./helpers/response.js');
+const routes = require('../routes/index.js');
+const responseHelper = require('../helpers/response.js');
 
 // Create server
 const server = http.createServer(
@@ -24,5 +24,3 @@ const HOST="0.0.0.0";
 server.listen(PORT, HOST, () => {
     console.info('Server is running');
 });
-
-module.exports = server;
