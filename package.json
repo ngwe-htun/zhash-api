@@ -1,0 +1,14 @@
+{
+  "name": "zhash-api",
+  "version": "1.0.0",
+  "description": "Personal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NgweHtun",
+  "license": "ISC",
+  "dependencies": {
+    "rate-limiter-flexible": "^5.0.3"
+  }
+}
