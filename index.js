@@ -24,3 +24,5 @@ const HOST="0.0.0.0";
 server.listen(PORT, HOST, () => {
     console.info('Server is running');
 });
+
+module.exports = server;
